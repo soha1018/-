@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/sense" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/my_car" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/query_etc" />
+        <item
+            android:id="@+id/nav_traffic_light"
+            android:icon="@android:drawable/ic_notification_overlay"
+            android:title="@string/traffic_light" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/query_road" />
+
+        <item
+            android:id="@+id/nav_en_sense"
+            android:icon="@android:drawable/ic_menu_directions"
+            android:title="@string/en_sense" />
+
+        <item
+            android:id="@+id/sense_history"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="@string/sense_history" />
+
+        <item
+            android:id="@+id/nav_car_manage"
+            android:icon="@android:drawable/ic_menu_crop"
+            android:title="@string/car_manage" />
+
+        <item
+            android:id="@+id/nav_light_manage"
+            android:icon="@android:drawable/ic_media_play"
+            android:title="@string/light_manage" />
+
+        <item
+            android:id="@+id/nav_light_check"
+            android:icon="@android:drawable/ic_media_play"
+            android:title="@string/light_intensity_check" />
+
+        <item
+            android:id="@+id/creative"
+            android:icon="@android:drawable/ic_input_get"
+            android:title="@string/creative" />
+    </group>
+
+
+</menu>

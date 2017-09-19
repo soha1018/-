@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="100dp"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/et_user"
+            android:textSize="32sp"
+            android:gravity="center"
+            android:hint="@string/put_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:inputType="textPassword"
+            android:layout_marginTop="15dp"
+            android:id="@+id/et_pwd"
+            android:textSize="32sp"
+            android:gravity="center"
+            android:hint="@string/put_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:inputType="textPassword"
+            android:layout_marginTop="15dp"
+            android:id="@+id/et_pwds"
+            android:textSize="32sp"
+            android:gravity="center"
+            android:hint="@string/put_pwds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_marginTop="15dp"
+            android:id="@+id/et_phone"
+            android:inputType="phone"
+            android:textSize="32sp"
+            android:gravity="center"
+            android:hint="@string/put_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:textSize="30sp"
+                android:text="@string/cancel"
+                android:background="@drawable/btn_bg"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btn_yes"
+                android:layout_margin="10dp"
+                android:textSize="30sp"
+                android:text="@string/yes"
+                android:background="@drawable/btn_bg"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

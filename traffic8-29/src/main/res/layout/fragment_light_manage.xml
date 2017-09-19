@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_margin="120dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="@string/light_status"
+                android:textColor="#000"
+                android:textSize="38sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Spinner
+                android:id="@+id/sp_light"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/tv_light_status"
+                android:text="@string/light_number"
+                android:textColor="#000"
+                android:textSize="38sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:layout_marginLeft="35dp"
+                android:text="@string/query"
+                android:textSize="38sp"
+                android:padding="8dp"
+                android:id="@+id/btn_query_light"
+                android:background="@drawable/btn_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="@string/light_status"
+                android:textColor="#000"
+                android:textSize="38sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Spinner
+                android:id="@+id/sp_light_number"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text="@string/light_open"
+                android:textSize="38sp"
+                android:padding="8dp"
+                android:id="@+id/btn_light_open"
+                android:background="@drawable/btn_bg"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:layout_marginLeft="30dp"
+                android:text="@string/light_on"
+                android:textSize="38sp"
+                android:padding="8dp"
+                android:id="@+id/btn_light_on"
+                android:background="@drawable/btn_bg"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

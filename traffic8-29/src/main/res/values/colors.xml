@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="transparent">#5000</color>
+
+    <color name="colorMoRen">#09e60e</color>
+    <color name="colorMoRen1">#0ebd12</color>
+    <color name="colorMoRen2">#98ed1f</color>
+    <color name="colorMoRen3">#ffff01</color>
+    <color name="colorMoRen4">#ff0103</color>
+    <color name="colorMoRen5">#4c060e</color>
+</resources>
