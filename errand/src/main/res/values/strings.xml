@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Errand</string>
+
+    <string name="login_username_hint">请输入用户名&#8230;</string>
+    <string name="login_password_hint">请输入密码&#8230;</string>
+    <string name="login_email_hint">请在此输入密码&#8230;</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="register_txt1">还没有账号？</string>
+    <string name="register_txt2">立即注册 ></string>
+    <string name="login_account">账号 </string>
+    <string name="login_pwd">密码 </string>
+    <string name="login_email">确认密码 </string>
+    <string name="message_search_hint">搜索&#8230;</string>
+    <string name="email">邮箱</string>
+    <string name="register_email_hint">请在此输入邮箱</string>
+    <string name="register_phone_hint">请在此输入手机号码</string>
+    <string name="phone">手机</string>
+    <string name="startApp">立即使用</string>
+    <string name="auto">自动登陆</string>
+    <string name="save_name">记住账户</string>
+</resources>
